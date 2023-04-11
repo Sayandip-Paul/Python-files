@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = 5
 l = []
 mul = 1
 while num > 0:
@@ -6,6 +6,6 @@ while num > 0:
     num = num - 1
 
 for item in l:
-    mul = mul * item
+    mul = mul + item
 else:
     print("The factorial is ",mul)
