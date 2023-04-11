@@ -6,6 +6,6 @@ while num > 0:
     num = num - 1
 
 for item in l:
-    mul = mul * item
+    mul = mul + item
 else:
     print("The factorial is ",mul)
