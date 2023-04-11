@@ -1,4 +1,4 @@
-num = 5
+num = int(input("Enter a number: "))
 l = []
 mul = 1
 while num > 0:
