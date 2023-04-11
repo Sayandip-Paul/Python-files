@@ -1,4 +1,4 @@
-word = input("Enter the word: ")
+word = "malayalam"
 
 if word == word[::-1]:
     print("it is a palindrome")
